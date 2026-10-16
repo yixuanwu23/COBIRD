@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Software citation metadata for COBIRD."
+title: "COBIRD: Coupled Binary Radiative Dynamics"
+type: software
+authors:
+  - family-names: "Wu"
+    given-names: "Yixuan"
+  - family-names: "Li"
+    given-names: "Jintang"
+version: "1.0.0"
+license: MIT
+abstract: >-
+  MATLAB research software for coupled thermophysical and dynamical evolution
+  of binary asteroids, including surface roughness and radiative recoil.
+keywords:
+  - binary asteroids
+  - thermophysical modeling
+  - Yarkovsky effect
+  - YORP effect
+  - BYORP effect
+  - surface roughness

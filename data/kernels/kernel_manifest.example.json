@@ -1,0 +1,14 @@
+{
+  "schema": "COBIRD_KERNEL_MANIFEST",
+  "generated_utc": "YYYY-MM-DDTHH:MM:SSZ",
+  "kernels": [
+    {
+      "role": "leapseconds",
+      "filename": "<filename>.tls",
+      "source_url": "https://naif.jpl.nasa.gov/...",
+      "solution": "<version or solution>",
+      "coverage": "<time coverage if applicable>",
+      "sha256": "<64 lowercase hexadecimal characters>"
+    }
+  ]
+}

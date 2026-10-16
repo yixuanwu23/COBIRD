@@ -1,0 +1,30 @@
+# Enforce LF for all text files (cross-platform MATLAB/SPICE project)
+.gitattributes text eol=lf
+.gitignore text eol=lf
+VERSION text eol=lf
+LICENSE text eol=lf
+*.gitkeep text eol=lf
+*.m text eol=lf
+*.tm text eol=lf
+*.cpp text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.cff text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.tpc text eol=lf
+*.tf text eol=lf
+*.mexa64 binary
+*.mexw64 binary
+*.mexmaci64 binary
+*.a binary
+*.lib binary
+*.mat binary
+*.bsp binary
+*.obj binary
+data/shape_models/dart_pre_impact/*.xml binary

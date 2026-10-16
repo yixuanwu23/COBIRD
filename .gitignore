@@ -1,0 +1,46 @@
+# MATLAB editor and build products
+*.asv
+*.m~
+*.autosave
+*.mex*
+*.p
+codegen/
+slprj/
+
+# Scientific data and generated outputs
+*.mat
+*.obj
+*.stl
+*.bsp
+*.bc
+*.bpc
+*.tls
+*.tpc
+*.tf
+*.tm
+*.log
+
+# Explicitly approved, unmodified NASA PDS shape products
+!data/shape_models/dart_pre_impact/didymos_g_9309mm_spc_obj_0000n00000_v003.obj
+!data/shape_models/dart_pre_impact/dimorphos_g_1940mm_spc_obj_0000n00000_v004.obj
+
+# Local third-party installations
+external/mice/*
+!external/mice/README.md
+
+# Local kernel manifests and archives
+data/kernels/*
+!data/kernels/README.md
+!data/kernels/cobird.tm.template
+!data/kernels/kernel_manifest.example.json
+
+# Common OS, IDE, and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.code-workspace
+tmp/
+temp/
+*.tmp
